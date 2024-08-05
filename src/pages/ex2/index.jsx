@@ -1,34 +1,49 @@
 import './index.scss'
+import {useState} from 'react';
 import { Link } from 'react-router-dom'
 
 export default function Exercicio2(){
-    return(
-        <div className='home-page'>
-            <header>
-                <img src='/assets/images'/>
-                <h1>React FreiS</h1>
-                <ul>
-                    <li><Link to={'/'}>Home</Link></li>
-                    <li><Link to={'/sobre'}>About</Link></li>
-                    
-                </ul>
 
+const[grama,setGrama]= useState(0);
+const[tot,setTot]= useState(0);
+
+function Calcular(){
+
+let kilo= 1000;
+let kg= grama/kilo;
+
+setTot(kg);
+
+}
+
+    return(
+        <div className='ex2-page'>
+            <header className='cabecalho'>
+                <img src='/assets/images/freimage.png'/>
+                <h1>React FreiS</h1> 
+
+                <div className='opcoes'> 
+                <p><Link to={'/'}>Home</Link></p>
+                <p><Link to={'/sobre'}>About</Link></p>
+                </div>
+                
             </header>
-            <section>
-                <h1>Exercício 2 - Converter kg/gramas</h1>
-                <hr></hr>
-                <div>
+
+            <h1 className='titulos1'> <Link to={'/'}><i className='fa fa-arrow-left seta'/></Link> Exercício 2 - Converter kg/grama </h1>
+            <hr></hr>
+            <section className='secao1'>
+                <div className='enunciado'>
                   <p>Implementar um programa em JavaScript para converter kilos em gramas .</p>  
                 </div>
 
-                <div>
+                <div className='logica'>
                     <p>Valor em gramas</p>
-                    <input type='Number'></input>
+                    <input type='text' value={grama} onChange={ e=> setGrama (e.target.value)}></input>
 
-                    <button>Executar</button>
+                    <button onClick={Calcular}>Executar</button>
                 </div>
 
-                <p>Resultado: O total é R$ 0,00</p>
+                <p className='resultado'> Resultado: O equivalente em KG é {tot}</p>
             </section>
         </div>
     )

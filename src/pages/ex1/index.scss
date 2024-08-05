@@ -5,39 +5,23 @@
 
 .cabecalho{
 
-  nav{
-
-display: flex;
-flex-direction: row;
-justify-content: center;
-min-width: auto;
-
- ul{
-
+  .opcoes{
     display: flex;
     flex-direction: row;
-    gap: 15px;
-    justify-content: center;
-    margin-right: 60px;
+    gap: 25px;
+    margin-left: 450px;
 
+    }
 
-   li{
-
-list-style: none;
-
-   }
-
- }
-
-  }
 
 }
 
 .titulos1{
-
-font-family: 'Rubik';
-margin: 10px;
-}
+    
+  font-family: 'Rubik';
+  margin: 15px;
+  margin-top: 20px;
+  }
 
 .secao1{
 
@@ -51,16 +35,17 @@ gap: 50px;
 .enunciado{
 
 display: flex;
-background-color: #fffae2;
+background-color: #ffffff;
 padding: 50px;
 margin-bottom: 30px;
 margin-top: 70px;
+border-radius: 15px;
 }
 }
 
 .logica{
 
-background-color: #faf8ef;
+background-color: #ffffff;
 display: flex;
 flex-direction: column;
 align-self: center;

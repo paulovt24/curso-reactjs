@@ -4,17 +4,20 @@ import { Link } from 'react-router-dom'
 export default function Home(){
     return(
         <div className='home-page'>
-            <header>
+            <header className='cabecalho'>
                 
                 <img src='/assets/images/freimage.png'/>
                 <h1>React FreiS</h1>
                 
-                    <p><Link to={'/'}>Home</Link></p>
-                    <p><Link to={'/sobre'}>About</Link></p>
+                <div className='opcoes'> 
+                <p><Link to={'/'}>Home</Link></p>
+                <p><Link to={'/sobre'}>About</Link></p>
+                </div>
+                   
                 
 
             </header>
-            <section className='pagina-home'>
+            <section className='secao1'>
                 <h1>Escolha um treino...</h1>
                 <div>
                     <div className='um'>

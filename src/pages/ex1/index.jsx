@@ -48,14 +48,13 @@ if(e.key=='Enter'){
         <div className='ex1-page'>
             <header className='cabecalho'>
                 <img src='/assets/images/freimage.png'/>
-                <h1>React FreiS</h1>
-                <nav>  
-                <ul>
-                    <li><Link to={'/'}>Home</Link></li>
-                    <li><Link to={'/sobre'}>About</Link></li>
-                </ul>
-                </nav>      
+                <h1>React FreiS</h1> 
 
+                <div className='opcoes'> 
+                <p><Link to={'/'}>Home</Link></p>
+                <p><Link to={'/sobre'}>About</Link></p>
+                </div>
+                
             </header>
 
            <h1 className='titulos1'> <Link to={'/'}><i className='fa fa-arrow-left seta'/></Link> Exercício 1 - Cupom de desconto</h1>
@@ -76,7 +75,7 @@ if(e.key=='Enter'){
                     <button onClick={Executar}> Executar</button>
                 </div>
 
-                <p>Resultado: O total é R$ {result} </p>
+                <p className='resultado'>Resultado: O total é R$ {result} </p>
             </section>
         </div>
     )

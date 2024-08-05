@@ -13,6 +13,15 @@
         opacity: 0px;
         background: #6278F7;
 
+
+        .opcoes{
+            display: flex;
+            flex-direction: row;
+            gap: 25px;
+            margin-left: 450px;
+    
+            }
+
         img {
             width: 51.52px;
             height: 60px;
@@ -73,32 +82,31 @@
         
 
     }
-
-    section{
+    .secao1{
 
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 50px;
+
 
         h1{
-            width: 441px;
+width: 441px;
 height: 30px;
 top: 159px;
 left: 80px;
 gap: 0px;
 opacity: 0px;
+margin-top: 20px;
 
-font-family: Roboto;
+font-family: 'Rubik';
 font-size: 26px;
 font-weight: 700;
 line-height: 30.47px;
-text-align: left;
-
+text-align: center;
 color: #383131;
 
-margin-right: 700px
-;
 
         }
 
