@@ -299,6 +299,67 @@
             }
 
         }
+
+        .onze {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            width: 215px;
+            height: 158px;
+            top: 223px;
+            left: 80px;
+            gap: 10px;
+            border-radius: 12px 0px 0px 0px;
+            opacity: 0px;
+
+            .vermelho {
+                width: 60px;
+                height: 60px;
+                top: 241px;
+                left: 157px;
+                gap: 0px;
+                border-radius: 12px 0px 0px 0px;
+                opacity: 0px;
+
+                background-color: #ff0000;
+
+
+            }
+
+            h2 {
+                width: 215px;
+                height: 16px;
+                top: 315px;
+                left: 600px;
+                gap: 0px;
+                opacity: 0px;
+
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 16.41px;
+                text-align: center;
+
+            }
+
+            p {
+                width: 215px;
+                height: 39px;
+                top: 335px;
+                left: 80px;
+                gap: 0px;
+                opacity: 0px;
+
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16.41px;
+                text-align: center;
+                
+            }
+
+        }
     }
 }
 }

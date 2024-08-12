@@ -37,6 +37,12 @@ export default function Home(){
                         <h2>Valor total por quantidade</h2>
                         <p><Link className='ex3' to={'/ex3'}> Exercício 3 </Link></p>
                     </div>
+
+                    <div className='onze'>
+                        <div className='vermelho'></div>
+                        <h2>Tabuada</h2>
+                        <p><Link className='ex11' to={'/ex11'}> Exercício 11 </Link> </p>
+                    </div>
                 </div>
 
             </section>
