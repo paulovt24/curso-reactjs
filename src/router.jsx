@@ -5,6 +5,7 @@ import Sobre from "./pages/sobre";
 import Exercicio1 from "./pages/ex1";
 import Exercicio2 from "./pages/ex2";
 import Exercicio3 from "./pages/ex3";
+import Exercicio10 from "./pages/ex10";
 import Exercicio11 from "./pages/ex11";
 
 export default function Navegacao(){
@@ -16,6 +17,7 @@ export default function Navegacao(){
                 <Route path="/ex1" element={<Exercicio1/>} />
                 <Route path="/ex2" element={<Exercicio2/>} />
                 <Route path="/ex3" element={<Exercicio3/>} />
+                <Route path="/ex10" element = {<Exercicio10/>} />
                 <Route path="/ex11" element={<Exercicio11/>} />
             </Routes>
         </BrowserRouter>

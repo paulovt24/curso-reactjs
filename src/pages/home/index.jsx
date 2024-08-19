@@ -38,6 +38,13 @@ export default function Home(){
                         <p><Link className='ex3' to={'/ex3'}> Exercício 3 </Link></p>
                     </div>
 
+
+                    <div className='dez'>
+                        <div className='roxo'></div>
+                        <h2>Cálculo de IMC</h2>
+                        <p><Link className='ex10' to={'/ex10'}> Exercício 10 </Link></p>
+                    </div>
+
                     <div className='onze'>
                         <div className='vermelho'></div>
                         <h2>Tabuada</h2>
