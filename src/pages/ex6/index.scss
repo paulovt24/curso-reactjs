@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.ex6-page{
+
+
+
+.titulos1{
+    
+  font-family: 'Rubik';
+  margin: 15px;
+  margin-top: 20px;
+  }
+
+.secao1{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 50px;
+
+
+.enunciado{
+
+display: flex;
+background-color: #ffffff;
+padding: 50px;
+margin-bottom: 30px;
+margin-top: 70px;
+border-radius: 15px;
+}
+}
+
+.logica{
+
+background-color: #ffffff;
+display: flex;
+flex-direction: column;
+align-self: center;
+padding: 40px;
+gap: 15px;
+border-radius: 3px ;
+box-shadow: 1px 1px 3px #000;
+
+h1{
+
+font-family: 'Oswald';
+
+}
+
+p{
+
+
+    font-family: 'Oswald';
+}
+
+}
+
+
+}

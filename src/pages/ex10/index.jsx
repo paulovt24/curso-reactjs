@@ -94,6 +94,7 @@ if(e.key=='Enter'){
                 <div className='enunciado'>
                   <p>Implemente um programa em Javascript que a partir da altura e do peso de uma pessoa, calcule o IMC e avalie a faixa correspondente a tabela ao lado. Ao final, apresente o IMC e a situação.</p>  
                 </div>
+                </section>
 
                 <section className='logica'>
                    <div className='calculo-imc'>
@@ -109,18 +110,24 @@ if(e.key=='Enter'){
                     <button onClick={Executar}>Executar</button>
                    </div>
 
-                   <ul>
+                   <ul className='lista'>
                     {listaResultado.map((item, pos) =>
                         <li key={pos}>
-                            <i id='trashicon' class="fa-solid fa-trash" onClick={()=>Remover(pos)}></i> &nbsp;
-                            {item}
+                            <div className='resultado'>{item}</div> &nbsp;
+                             
+                             <div className='icon'  onClick={()=>Remover(pos)}>
+                             <i id='trashicon' class="fa-solid fa-trash"></i> 
+                             </div>
+                            
+                           
                             </li>
                     )}
                     
                    </ul>
+                   
                 </section>
 
-            </section>
+            
         </div>
     )
 }

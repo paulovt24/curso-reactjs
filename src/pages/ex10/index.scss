@@ -1,0 +1,74 @@
+.logica{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 100px;
+    
+ .calculo-imc{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+    max-width: 450px;
+    border-radius: 15px;
+
+    input{
+        padding: 5px;
+        border-radius: 10px;
+    }
+    p{
+        font: 800 20px Roboto;
+    }
+    .altura, .peso{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+
+    }
+    button{
+        padding: 10px 50px;
+        border-radius: 10px;
+        background-color: blue;
+        font: 300 20px Roboto;
+        color: white;
+        margin-left: 205px;
+        margin-top: 12px;
+    }
+ }  
+ 
+ .lista{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    li{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+        .resultado{
+            background-color: white;
+            display: flex;
+        padding: 10px;
+           align-items: center;
+           justify-content: flex-start;
+           border-radius: 10px;
+           min-width: 500px;
+
+        }
+
+        .icon{
+            background-color: rgb(46, 117, 223);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+
+        }
+    }
+ }
+}
