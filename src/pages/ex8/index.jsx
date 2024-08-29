@@ -1,6 +1,7 @@
 import './index.scss'
 import {useState} from 'react';
 import { Link } from 'react-router-dom'
+import Cabecalho from '../../components/cabecalho'
 
 export default function Exercicio8(){
 
@@ -39,16 +40,7 @@ if(temp >=37.6){
 
     return(
         <div className='ex8-page'>
-            <header className='cabecalho'>
-                <img src='/assets/images/freimage.png'/>
-                <h1>React FreiS</h1> 
-
-                <div className='opcoes'> 
-                <p><Link to={'/'}>Home</Link></p>
-                <p><Link to={'/sobre'}>About</Link></p>
-                </div>
-                
-            </header>
+           <Cabecalho/>
 
             <h1 className='titulos1'> <Link to={'/'}><i className='fa fa-arrow-left seta'/></Link> Exercício 8 - Temperatura </h1>
             <hr></hr>

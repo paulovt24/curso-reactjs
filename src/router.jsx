@@ -10,8 +10,10 @@ import Exercicio5 from "./pages/ex5";
 import Exercicio6 from "./pages/ex6";
 import Exercicio7 from "./pages/ex7";
 import Exercicio8 from "./pages/ex8";
+import Exercicio9 from "./pages/ex9";
 import Exercicio10 from "./pages/ex10";
 import Exercicio11 from "./pages/ex11";
+import Exercicio12 from "./pages/ex12";
 
 export default function Navegacao(){
     return(
@@ -27,9 +29,10 @@ export default function Navegacao(){
                 <Route path="/ex6" element={<Exercicio6/>} />
                 <Route path="/ex7" element={<Exercicio7/>} />
                 <Route path="/ex8" element={<Exercicio8/>} />
-
-                <Route path="/ex10" element = {<Exercicio10/>} />
+                <Route path="/ex9" element={<Exercicio9/>} />
+                <Route path="/ex10" element={<Exercicio10/>} />
                 <Route path="/ex11" element={<Exercicio11/>} />
+                <Route path="/ex12" element={<Exercicio12/>} />
             </Routes>
         </BrowserRouter>
     )

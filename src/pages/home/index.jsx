@@ -1,5 +1,6 @@
 import './index.scss'
 import { Link } from 'react-router-dom'
+import Cabecalho from '../../components/cabecalho'
 
 export default function Home(){
 
@@ -23,6 +24,42 @@ export default function Home(){
         "subtitulo_card": 'Exercício 3' 
     },
     {
+        "link_card":'/ex4',
+        "cor_card": 'marrom',
+        "titulo_card":'Tabuada ',
+        "subtitulo_card": 'Exercício 4' 
+    },
+    {
+        "link_card":'/ex5',
+        "cor_card": 'azul',
+        "titulo_card":'Tabuada ',
+        "subtitulo_card": 'Exercício 5' 
+    },
+    {
+        "link_card":'/ex6',
+        "cor_card": 'rosa',
+        "titulo_card":'Tabuada ',
+        "subtitulo_card": 'Exercício 6' 
+    },
+    {
+        "link_card":'/ex7',
+        "cor_card": 'preto',
+        "titulo_card":'Tabuada ',
+        "subtitulo_card": 'Exercício 7' 
+    },
+    {
+        "link_card":'/ex8',
+        "cor_card": 'branco',
+        "titulo_card":'Tabuada ',
+        "subtitulo_card": 'Exercício 8' 
+    },
+    {
+        "link_card":'/ex9',
+        "cor_card": 'verde-escuro',
+        "titulo_card":'Tabuada ',
+        "subtitulo_card": 'Exercício 9' 
+    },
+    {
         "link_card":'/ex10',
         "cor_card": 'roxo',
         "titulo_card":'Cálculo de IMC ',
@@ -33,7 +70,14 @@ export default function Home(){
         "cor_card": 'vermelho',
         "titulo_card":'Tabuada ',
         "subtitulo_card": 'Exercício 11' 
-    }
+    },
+    {
+        "link_card":'/ex12',
+        "cor_card": 'bege',
+        "titulo_card":'Tabuada ',
+        "subtitulo_card": 'Exercício 12' 
+    },
+   
 ]
 
     return(
@@ -45,7 +89,7 @@ export default function Home(){
                 <h1>Escolha um treino...</h1>
 
                
-                <div>
+                <div className='cards-abrigo'>
 
 
                 {
@@ -65,21 +109,6 @@ export default function Home(){
     )
 }
 
-function Cabecalho(){
-    return(
-        <header className='cabecalho'>
-                
-        <img src='/assets/images/freimage.png'/>
-        <h1>React FreiS</h1>
-        
-        <div className='opcoes'> 
-        <p><Link to={'/'}>Home</Link></p>
-        <p><Link to={'/sobre'}>About</Link></p>
-        </div>
-           
-    </header>
-    )
-}
 
 
     

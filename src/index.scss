@@ -3,125 +3,31 @@ margin: 0;
 box-sizing: border-box;
 text-decoration: none;
 
-}
+
 
 body{
 
 background-color: #cfd4e9;
+display: flex;
+flex-direction: column;
 }
 
-p{
 
-font-family: 'Rubik';
-
-}
-
-Link{
-
-text-decoration: none;
-
-}
-
-   .cabecalho {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
-    min-width: 100%;
-    height: 90px;
-    gap: 20px;
-    opacity: 0px;
-    background: #6278F7;
-
-        nav{
-      
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      min-width: auto;
-      
-       ul{
-      
-          display: flex;
-          flex-direction: row;
-          gap: 15px;
-          justify-content: center;
-          margin-right: 60px;
-         
-      
-         li{
-      
-      list-style: none;
-      margin-left: 50px;
-      
-         }
-      
-       }
-      
-        }
-      
-
-
-    img {
-        width: 51.52px;
-        height: 60px;
-        top: 15px;
-        left: 80px;
-        gap: 0px;
-        opacity: 0px;
-        margin-left: 20px;
-        margin-right: 20px;
-
-    }
-
-    h1 {
-        width: 103px;
-        height: 23px;
-        top: 34px;
-        left: 167px;
-        gap: 0px;
-        opacity: 0px;
-
-        font-family: Roboto;
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 23.44px;
-        text-align: left;
-
-        color: #F5F6FA;
-        margin-right: 900px;
-        
-        
-
-
-    }
-
-
-
-        p {
-            width: 49px;
-            height: 23px;
-            top: 34px;
-            left: 1237px;
-            gap: 0px;
-            opacity: 0px;
-
-            font-family: Roboto;
-            font-size: 20px;
-            font-weight: 400;
-            line-height: 23.44px;
-            text-align: right;
-            text-decoration: none;
-
-            color: #F5F6FA;
-           
-
-
-
-        }
+.titulos1{
     
+    font-family: 'Rubik';
+    margin: 15px;
+    margin-top: 20px;
+    }
 
-}
+.secao1{
+
+display: flex;
+flex-direction: column;
+padding: 20px;
+align-items: center;
+justify-content: center;
+gap: 50px;
 
 .enunciado{
 
@@ -130,7 +36,27 @@ text-decoration: none;
     padding: 50px;
     margin-bottom: 30px;
     margin-top: 70px;
+    border-radius: 20px;
+    max-width: 75%;
     }
+
+
+}
+
+p{
+
+font-family: 'Rubik';
+text-align: center;
+
+}
+
+Link{
+
+text-decoration: none;
+
+
+}
+
 
 
     .resultado{
@@ -139,3 +65,4 @@ text-decoration: none;
         }
     
 
+    }

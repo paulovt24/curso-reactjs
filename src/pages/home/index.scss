@@ -1,87 +1,5 @@
 .home-page {
 
-    header {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: start;
-        
-
-        width: 1440px;
-        height: 90px;
-        gap: 20px;
-        opacity: 0px;
-        background: #6278F7;
-
-        .opcoes{
-        display: flex;
-        flex-direction: row;
-        gap: 25px;
-        margin-left: 450px;
-
-        }
-
-        img {
-            width: 51.52px;
-            height: 60px;
-            top: 15px;
-            left: 80px;
-            gap: 0px;
-            opacity: 0px;
-            margin-left: 20px;
-            margin-right: 20px;
-
-        }
-
-        h1 {
-            width: 103px;
-            height: 23px;
-            top: 34px;
-            left: 167px;
-            gap: 0px;
-            opacity: 0px;
-
-            font-family: Roboto;
-            font-size: 20px;
-            font-weight: 700;
-            line-height: 23.44px;
-            text-align: left;
-
-            color: #F5F6FA;
-            margin-right: 900px;
-            
-            
-
-
-        }
-
-    
-
-            p {
-                width: 49px;
-                height: 23px;
-                top: 34px;
-                left: 1237px;
-                gap: 0px;
-                opacity: 0px;
-
-                font-family: Roboto;
-                font-size: 20px;
-                font-weight: 400;
-                line-height: 23.44px;
-                text-align: right;
-                text-decoration: none;
-
-                color: #F5F6FA;
-               
-
-
-
-            }
-        
-
-    }
-
     .secao1{
 
         display: flex;
@@ -89,6 +7,7 @@
         align-items: center;
         justify-content: center;
         gap: 50px;
+       
 
     h1 {
         width: 441px;
@@ -109,12 +28,27 @@
     }
 
 
-    div {
+    .cards-abrigo {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
 
+        div{
+            border: solid 1px black;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .card:hover{
+            height: 200px;
+        }
         .card {
-
+            
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -150,11 +84,38 @@
 
             }
             .roxo {
-                background: #36009b;
+                background: #800080;
 
             }
             .amarelo {
                 background: #fbff00;
+            }
+            .marrom {
+                background: #4b2502;
+            }
+            .azul {
+                background: #1613cf;
+            }
+            .rosa {
+                background: #dd1891;
+            }
+            .preto {
+                background: #000000;
+            }
+            .vinho {
+                background: #520e0e;
+            }
+            .verde-escuro {
+                background: #113a1a;
+            }
+            .cinza {
+                background: #808080;
+            }
+            .bege {
+                background: #f1f1c2;
+            }
+            .branco {
+                background: white;
             }
 
             h2 {

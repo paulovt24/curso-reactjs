@@ -1,0 +1,110 @@
+.ex12-page{
+
+    .logica{
+        display: flex;
+        flex-direction: row;
+        padding: 10px 100px;
+
+        .amostra{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: solid 1px black;
+            gap: 10px;
+            li{
+                
+                border: solid 1px black;
+            }
+        }
+     .programa{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+        border-radius: 15px;
+    
+        input{
+            padding: 5px;
+            border-radius: 10px;
+        }
+        p{
+            font: 800 20px Roboto;
+        }
+        .nome, .idade{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+    
+    
+        }
+        button{
+            padding: 10px 50px;
+            border-radius: 10px;
+            background-color: blue;
+            font: 300 20px Roboto;
+            color: white;
+            margin-left: 150px;
+            margin-top: 12px;
+        }
+     }  
+     
+     .lista{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+        li{
+            display: flex;
+            flex-direction: column;
+            
+    
+            .resultado{
+                background-color: white;
+                display: flex;
+                padding: 10px;
+               align-items: center;
+               border-top-right-radius:10px;
+               border-top-left-radius:10px;
+               min-width: 200px;
+               justify-content: center;
+               
+            }
+    
+            .alteracao{
+                background-color: #2e75df;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+               justify-content: center;
+            
+                color: white;
+                border-bottom-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                
+                .apagar{
+                    border-bottom-right-radius: 10px;
+                }
+                .editar{
+                    border-bottom-left-radius: 10px;
+                }
+                .apagar, .editar{
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: solid 1px black;
+                    width: 100%;
+                    padding: 10px;
+                    background-color: #2e75df;
+                    color: white;
+                    font: 200 18px Roboto;
+                    
+                }
+    
+            }
+        }
+     }
+    }
+    }
