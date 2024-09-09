@@ -1,4 +1,5 @@
 import './index.scss'
+import Card from '../../components/cards'
 import { Link } from 'react-router-dom'
 import Cabecalho from '../../components/cabecalho'
 
@@ -49,7 +50,7 @@ export default function Home(){
     },
     {
         "link_card":'/ex8',
-        "cor_card": 'branco',
+        "cor_card": 'cinza',
         "titulo_card":'Tabuada ',
         "subtitulo_card": 'Exercício 8' 
     },
@@ -71,13 +72,6 @@ export default function Home(){
         "titulo_card":'Tabuada ',
         "subtitulo_card": 'Exercício 11' 
     },
-    {
-        "link_card":'/ex12',
-        "cor_card": 'bege',
-        "titulo_card":'Tabuada ',
-        "subtitulo_card": 'Exercício 12' 
-    },
-   
 ]
 
     return(
@@ -92,7 +86,7 @@ export default function Home(){
                 <div className='cards-abrigo'>
 
 
-                {
+    {
     cards.map(card =>
         <Card
             link_card = {card.link_card}
@@ -108,22 +102,3 @@ export default function Home(){
         </div>
     )
 }
-
-
-
-    
-    function Card({link_card, cor_card, titulo_card, subtitulo_card}){
-
-    return(
-        <Link to = {link_card} className='link'>
-        <div className='card'>
-        
-                        <div className={`retangulo ${cor_card}`}></div>
-                        <h2>{titulo_card}</h2>
-                        <p> {subtitulo_card} </p>
-                        
-                    </div>
-                    </Link>
-    )
-}
- 
